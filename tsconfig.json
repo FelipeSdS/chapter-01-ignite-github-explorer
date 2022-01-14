@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {                            
+    "lib": ["DOM", "DOM.Iterable", "ESNext"], // Informa que estamos trabalhando com arquivos HTML e utilizando a DOM
+    "allowJs": true,          // Informa que o projeto pode conter arquivos JS não somente TS
+    "jsx": "react-jsx",       // Informa que temos arquivos JSX                    
+    "noEmit": true,                                   
+    "strict": true,    
+    "moduleResolution": "node",                               
+    "resolveJsonModule": true, // deixar importar arquivos json
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,             
+    "esModuleInterop": true,                         
+    "skipLibCheck": true,   
+    "forceConsistentCasingInFileNames": true,                                  
+  },
+  "include": ["src"] // todo o código esta dentro desta pasta
+}
